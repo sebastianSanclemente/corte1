@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<title>Formularios</title>
+</head>
+<body class="fondo">
+    <nav>
+        <ul>
+            <li> <a href="imagenFondo.html">Imagenes de fondo</a></li>
+            <li> <a href="tipografias.html">Tipografias</a></li>
+            <li> <a href="centrarContenido.html">Centrar contenido</a></li>
+            <li> <a href="posiciones.html">Posiciones</a></li>
+            <li> <a href="transformaciones.html">Transformaciones</a></li>
+            <li> <a href="formularios.html">Formularios</a></li>
+            <li> <a href="video.html">Video</a></li>
+            <li> <a href="audio.html">Audio</a></li>
+    
+        </ul>
+	</nav>
+	<section>
+	<h2> Formularios </h2>
+     <article>
+     	El HTML de un formulario web está compuesto por uno o más controles de formulario (a veces llamados widgets), además de algunos elementos adicionales que ayudan a estructurar el formulario general; a menudo se los conoce como formularios HTML.
+        Los controles pueden ser campos de texto de una o varias líneas, cajas desplegables, botones, casillas de verificación o botones de opción, y se crean principalmente con el elemento input, aunque hay algunos otros elementos que también hay que conocer.
+     </article>
+     <br>
+     <h3>ejemplo de un formulario</h3>
+     <br>
+     <form method="get"action="paginax.html">
+     	<table border="5"align="center"bordercolor=#3999d5>
+     		
+     		<tr><th>nombre</th><th>etiqueta</th></tr>
+     		<tr>
+     			<th>nombre</th>
+     			<td><input type="text"name="nombre" autofocus></td>
+     		</tr>
+     		<tr>
+     			<th>apellido</th>
+     			<td><input type="text"name="apellido"></td>
+     		</tr>
+     		<tr>
+     			<th>login</th>
+     			<td><input type="text"name="login"value="lina"required size="10"maxlenght="10"></td>
+     		</tr>
+     		<tr>
+     			<th>contraseña</th>
+     			<td><input type="password"name="clave"title="escribe cualquier burrada"></td>
+     		</tr>
+     		<tr>
+     			<th>correo</th>
+     			<td><input type="email"name="correo"placeholder="cata_esta@reloca.com"title="digite el correo mi pez..."></td>
+     		</tr>
+     		</tr>
+     		<tr>
+     			<th>happy birthday</th>
+     			<td><input type="date"name="fecha"value="2023-03-06"></td>
+     		</tr>
+     		<tr>
+     			<th>color favorito</th>
+     			<td><input type="color"name="color"></td>
+     		</tr>
+     			<tr>
+     			<th>que tanto le gusta</th>
+     			<td><input type="range"min="1"max="10"name="gusto"step="1"title="cata indique que tanto le gusta">10</td>
+     		</tr>
+     			<tr>
+     			<th>edad</th>
+     			<td><input type="number"min="18"max="30"name="edad"step="1"value="20"></td>
+     		</tr>
+     		<tr>
+     			<th colspan="2">preferencias</th>
+     		</tr>
+     		<tr>
+     			<td colspan="2">
+     			<input type="checkbox"name="preferencia[0]">novelas
+     			<input type="checkbox"name="preferencia[1]">deportes
+     			<input type="checkbox"name="preferencia[2]">rasquin ball
+     			<input type="checkbox"name="preferencia[3]">cine
+     			<input type="checkbox"name="preferencia[4]">farandulas
+     			</td>
+     		</tr>
+
+     		<tr>
+     			
+              <th><input type="submit"name=""value="envio inmediato"></th>
+               <th><input type="reset"name=""value="restablecer"></th>
+
+     		</tr>
+     		
+     	</table>
+     </form>
+
+	</section>
+
+
+
+<footer></footer>
+
+
+
+</body>
+</html>

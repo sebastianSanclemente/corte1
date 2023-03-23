@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 300px;
+    background: #6495ED;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px;
+}
+.controls{
+    width: 100%;
+    background: #d6dbe6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #2158be;
+    
+}
+.form-register .botons{
+    width: 100%;
+    background: #d6dbe6;
+    border: none;
+    padding: 12px;
+    color: black;
+}
+.miTexto {
+    color: khaki;
+    font-size: 100px;
+ }
+ .html{
+    color:black;
+    font-size: 25px;
+    font: monospace;
+
+ }
+ nav{
+    background: #6495ED;
+    height: 90px;
+    width: 100%;
+}
+nav ul li a
+{
+    color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.fondo{
+    background-color: lightseagreen;
+}
+.monos {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.geor {
+    background: red;
+    font-family: georgia;
+    font-size: 25px;
+}
+
+.arial {
+    background: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.text{
+    color:black;
+    font-size: 25px;
+    font: monospace;
+    text-align: center;
+}
+
+.cuadrado{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    position: relative;
+
+}
+.rectangulo{
+    background-color: red;
+    color: black;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+.circulo{
+    background-color: green;
+    color: black;
+    width: 20px;
+    height: 10px;
+    padding: 40px;
+    border-radius: 40%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.texto{
+    color:black;
+}
+
+  
